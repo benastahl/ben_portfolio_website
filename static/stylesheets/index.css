@@ -3,21 +3,28 @@ body, html {
     padding: 0;
 }
 
-#hello-message {
-    width: 100vw;
-    height: 100px;
-    align-items: center;
-    align-content: center;
+.containers {
+    flex-direction: column;
     text-align: center;
+}
+
+#hello-message {
+    display: flex;
+    width: 100vw;
+    margin-top: 7vw;
+    margin-bottom: 10vw;
+
+    justify-content: center;
+
     font-weight: bold;
 }
 
 #nav-list {
+    display: flex;
     width: 100vw;
-    height: 400px;
-    align-items: center;
-    align-content: center;
-    text-align: center;
+
+    justify-content: center;
+
     text-decoration: none;
 }
 ul {
@@ -32,4 +39,11 @@ li {
 a {
     text-decoration: none;
     color: black;
+}
+
+@media (max-width: 768px) {
+    /* Styles for tablets and smaller */
+    body {
+        background-color: lightblue;
+    }
 }
