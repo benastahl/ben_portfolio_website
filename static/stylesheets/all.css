@@ -1,0 +1,8 @@
+.home-redirect {
+    position: fixed;
+}
+
+.home-redirect a {
+    text-decoration: none;
+    color: black;
+}

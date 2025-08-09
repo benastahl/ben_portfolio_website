@@ -1,0 +1,31 @@
+section {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.photos-container {
+    display: flex;
+    justify-content: center;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.about .text {
+    display: flex;
+    flex-direction: column;
+}
+
+.about .text p {
+    display: flex;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}

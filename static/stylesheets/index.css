@@ -1,0 +1,35 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+#hello-message {
+    width: 100vw;
+    height: 100px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+#nav-list {
+    width: 100vw;
+    height: 400px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
