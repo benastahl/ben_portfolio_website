@@ -4,7 +4,6 @@ body, html {
 }
 
 .containers {
-    flex-direction: column;
     text-align: center;
 }
 
@@ -44,6 +43,6 @@ a {
 @media (max-width: 768px) {
     /* Styles for tablets and smaller */
     body {
-        background-color: red;
+        background-color: lightblue;
     }
 }
