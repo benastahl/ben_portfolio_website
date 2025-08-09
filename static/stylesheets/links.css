@@ -17,3 +17,17 @@ li a {
     color: black;
 }
 
+@media (max-width: 768px) {
+
+    body {
+        font-size: 30px;
+    }
+
+    ul {
+        margin-top: 60vw;
+    }
+
+    li {
+        padding: 20px;
+    }
+}

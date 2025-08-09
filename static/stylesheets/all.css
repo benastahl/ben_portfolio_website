@@ -14,4 +14,21 @@ body, html {
 .home-redirect a {
     text-decoration: none;
     color: black;
+    font-weight: bold;
 }
+
+/* Styles for tablets and smaller */
+
+@media (max-width: 768px) {
+
+    body {
+        font-size: 25px;
+    }
+
+    .home-redirect {
+        margin-top: 4vw;
+        margin-left: 4vw;
+    }
+
+}
+
