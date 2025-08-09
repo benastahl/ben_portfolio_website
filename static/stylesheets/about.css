@@ -4,12 +4,13 @@ section {
     justify-content: space-between;
 
     padding: 10px;
-    margin-top: 5vw;
+    margin-top: 3vw;
 }
 
 .photos-container {
     display: flex;
     justify-content: center;
+    margin-bottom: 2vw;
 }
 
 .about {
