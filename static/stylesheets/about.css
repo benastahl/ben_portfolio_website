@@ -2,15 +2,11 @@ section {
     display:flex;
     flex-direction: column;
     justify-content: space-between;
-
-    padding: 10px;
-    margin-top: 3vw;
 }
 
 .photos-container {
     display: flex;
     justify-content: center;
-    margin-bottom: 2vw;
 }
 
 .about {
@@ -32,6 +28,15 @@ section {
 img {
     width: 200px;
     height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#sf_palace {
+    clip-path: inset(90px 0 0 0);
+}
+#spd_composite {
+    clip-path: inset(15px 0 0 0);
 }
 
 @media (max-width: 768px) {
