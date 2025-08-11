@@ -62,10 +62,6 @@ a {
         justify-items: center;
     }
 
-    .image-container .mobile {
-        display: flex;
-    }
-
     img {
         display: none;
     }
