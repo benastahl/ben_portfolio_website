@@ -20,8 +20,9 @@
 @media (max-width: 768px) {
 
     .resume {
-        width: 50vw;
-        height: 70vw;
+        margin-top: 5vw;
+        width: 70vw;
+        height: 90vw;
     }
 
 }
