@@ -4,8 +4,17 @@
 }
 
 .resume {
-    width: 37vw;
-    height: 52vw;
+    width: 36vw;
+    height: 51vw;
+}
+
+.open-pdf-container {
+    width: 100vw;
+    text-align: center;
+}
+
+.open-pdf-container .btn {
+    color: black;
 }
 
 @media (max-width: 768px) {
