@@ -11,6 +11,10 @@
     justify-content: center;
 }
 
+.image-container .mobile {
+    display: none;
+}
+
 img {
     height: 250px;
     margin-top: 15vw;
@@ -49,8 +53,17 @@ a {
 }
 
 @media (max-width: 768px) {
+    .main-text {
+        width: 100vw;
+    }
+
     .image-container {
-        width: 20vw;
+        width: 100vw;
+        justify-items: center;
+    }
+
+    .image-container .mobile {
+        display: flex;
     }
 
     img {
