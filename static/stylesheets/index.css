@@ -11,7 +11,7 @@
     justify-content: center;
 }
 
-.image-container .mobile {
+.image-container.mobile {
     display: none;
 }
 
@@ -57,12 +57,13 @@ a {
         width: 100vw;
     }
 
-    .image-container {
+    .image-container.mobile {
+        display: flex;
         width: 100vw;
         justify-items: center;
     }
 
-    img {
+    .image-container.desktop {
         display: none;
     }
 
