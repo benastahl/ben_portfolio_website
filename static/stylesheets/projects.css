@@ -1,3 +1,20 @@
+.page-header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7vw;
+    width: 100vw;
+}
+.page-header-container header {
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: 2px solid #ccc;
+    width: 30vw;
+    text-align: center;
+    padding: 1vw;
+}
+
 ul {
     display: flex;
     flex-direction: column;
@@ -5,7 +22,7 @@ ul {
     list-style-type: none;
     text-align: center;
     padding-left: 0;
-    margin-top: 10vw;
+    /*margin-top: 5vw;*/
     align-items: center;
 }
 
@@ -25,12 +42,20 @@ li a {
 
 @media (max-width: 768px) {
 
+    .page-header-container {
+        margin-top: 15vw;
+    }
+
+    .page-header-container header {
+        width: 50vw;
+    }
+
     body {
         font-size: 20px;
     }
 
     ul {
-        margin-top: 20vw;
+        margin-top: 5vw;
     }
 
     li {
