@@ -23,12 +23,22 @@ img {
 
 #hello-message {
     display: flex;
-    margin-top: 7vw;
-    margin-bottom: 10vw;
+    margin-top: 6vw;
+    margin-bottom: 6vw;
 
+    flex-direction: column;
     justify-content: center;
 
     font-weight: bold;
+}
+
+#hello-message #hello-sub {
+    font-weight: normal;
+}
+
+#hello-message #hello-hi {
+    font-size: 20px;
+    margin-bottom: 1vw;
 }
 
 #nav-list {
