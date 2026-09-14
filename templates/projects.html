@@ -15,13 +15,32 @@
     <p style="color: #9a9a9a">(click proj for github)</p>
 </div>
 <ul>
-    <li><a target="_blank" href="https://github.com/benastahl/tclslang"><strong>tclslang: a tcl extension for verilog analysis</strong><br><br>
+
+        <li><a target="_blank" href="https://github.com/benastahl/tclslang"><strong>tclslang: a tcl extension for verilog analysis</strong><br><br>
 
         <strong>c/c++, svlang</strong>
         <br><br>
         A high-performance Tcl extension written in C++ that integrates the Slang SystemVerilog library into the Tcl scripting environment. Tclslang provides a programmable, object-oriented interface for parsing Verilog files and introspecting hardware designs, allowing users to navigate modules, cells, ports, and analyze signal drivers directly from Tcl scripts.
         
         <img src="../static/images/tclslang_object_model_architecture.svg" alt="tclslang diagram">
+
+    </a></li>
+
+    <li><a><strong>noir: kubernetes runtime compliance auditor (cisco capstone)</strong><br><br>
+
+        <strong>go (golang), ebpf / tetragon, grpc, kubernetes (kind, helm), clickhouse, react, websockets, docker</strong>
+        <br><br>
+        A year long capstone built with Cisco that turns low-level Kubernetes runtime telemetry into audit-ready
+        compliance evidence. Tetragon eBPF TracingPolicies watch the kernel for control-relevant behavior (for
+        example, writes under /etc for NIST 800-53 SI-7), and each policy carries its framework, control, and
+        severity as tags, so every event arrives already attributed. A Go processor consumes the gRPC stream,
+        normalizes events into findings, and batch-writes them to ClickHouse, where a Go REST/WebSocket API
+        streams them to a live React dashboard using a timestamp-cursor handoff so no event is shown twice.
+        I built the ClickHouse sink and a replay mode that runs captured kernel events through the real pipeline
+        without a cluster, wired the dashboard to the live API, and tracked down a cursor-precision bug that was
+        re-sending every event eight times.
+
+        <img src="../static/images/noir_compliance_pipeline.svg" alt="noir compliance pipeline diagram">
 
     </a></li>
     <li><a target="_blank" href="https://github.com/benastahl/keyval-enc-server-cse303"><strong>encrypted c++ server/client - for lehigh OS class</strong><br><br>
